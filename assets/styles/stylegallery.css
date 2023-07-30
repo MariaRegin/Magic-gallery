@@ -1,0 +1,87 @@
+.wrapper {
+  background: url("../images/starry-night-sky-from-below-trees.jpg");
+  font-family: Ysabeau Infant, Arial, sans-serif;
+  font-weight: 100;
+  color: rgb(61, 60, 60);
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin: 20px;
+}
+
+.bullet {
+  display: inline;
+}
+
+.about {
+  background-color: rgb(245, 245, 203);
+  padding: 40px;
+}
+
+.gallery {
+  background-color: rgb(245, 245, 203);
+  padding: 40px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  padding: 20px;
+  margin: 20px;
+}
+
+.tickets {
+  background-color: rgb(245, 245, 203);
+  padding: 40px;
+}
+
+.visitors {
+  background-color: rgb(245, 245, 203);
+  padding: 40px;
+}
+
+.footer {
+  background-color: rgb(91, 91, 38);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+a:link {
+  color: rgb(136, 205, 67);
+}
+
+a:visited {
+  color: rgb(214, 114, 32);
+}
+
+a:hover {
+  color: rgb(255, 0, 132);
+}
+
+.footer,
+a:link {
+  color: rgb(
+    246,
+    157,
+    157
+  ); /*Тут, кажется, неправильная конструкция. Хотела выделить все link в классе футера */
+}
+
+.scale {
+  transition: 1s;
+}
+
+.scale:hover {
+  transform: scale(1.2);
+}
